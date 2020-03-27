@@ -1,1 +1,1 @@
-(stop|kill) (spotify|raspotify) (service|device|client|device)
+(stop|kill) (spotify|raspotify) (|service|client)

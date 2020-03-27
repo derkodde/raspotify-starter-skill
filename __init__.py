@@ -1,4 +1,5 @@
 from mycroft import MycroftSkill, intent_file_handler
+from mycroft.util.log import LOG
 import subprocess
 
 class ShellStarter(MycroftSkill):
@@ -17,6 +18,7 @@ class ShellStarter(MycroftSkill):
     def handle_stop_raspotify(self, message):
 
         subprocess.call(["sudo","systemctl","stop","raspotify"])
+        LOG.info('sudo systemctl stop raspotify')
         self.speak_dialog('stop.raspotify')
 
 

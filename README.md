@@ -10,8 +10,8 @@ You will have to config raspotify manually here in /etc/default/raspotify
 
 ## Examples
 * "Start Raspotifi Service"
-* "Execute Raspotify script"
-* "Kill raspotify device"
+* "restart Raspotify client"
+* "Kill raspotify"
 * "Stop raspotify client"
 
 ## Credits

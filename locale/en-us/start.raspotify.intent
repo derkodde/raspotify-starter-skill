@@ -1,1 +1,1 @@
-(execute|restart) (spotify|raspotify) (service|skript|client|device)
+(execute|restart|run) (spotify|raspotify) (service|skript|client)
